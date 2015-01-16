@@ -1,0 +1,1 @@
+This is a Coding Dojo assignment to create a mini store by using MEAN.
