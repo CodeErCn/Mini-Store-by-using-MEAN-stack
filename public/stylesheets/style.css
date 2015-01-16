@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 10px 1%;
+}
+
+div.nav {
+  margin: 10px 1%;
+}
+
+/*
+ CUSTOMER TEMPLATE
+ */
+
+    div.customer fieldset {
+      width: 30%;
+      margin: 20px 1%;
+      padding: 20px 1%;
+    }
+
+    div.customer span {
+      display: block;
+    }
+
+    div.customer input {
+      height: 15px;
+    }
+
+    div.customer input.search {
+      width: 20%;
+      height: 15px;
+      margin-left: 1%;
+    }
+
+    div.customer table {
+      width: 45%;
+      margin: 20px 1%;
+      text-align: left;
+    }
+
+    div.customer thead {
+      background-color: lightgray;
+    }
+
+    div.customer th {
+      width: 40%;
+    }
+
+    div.customer td.last {
+      text-align: center;
+    }
+
+    div.customer tr {
+      height: 23px;
+    }
+
+    div.customer button {
+      border: none;
+      padding: 0px 1%;
+      font-size: 1em;
+    }
+        
+        div.customer button.add {
+          width: 15%;
+          background-color: skyblue;
+          border-radius: 3px;
+          box-shadow: 2px 2px 2px lightgray;
+          color: snow;
+        }
+
+        div.customer button.remove {
+          width: 80%;
+          background-color: tomato;
+          border-radius: 3px;
+          box-shadow: 2px 2px 2px lightgray;
+          color: snow;
+        }
+/*
+  ORDER TEMPLATE
+ */
+
+    div.order select {
+      width: 60%;
+      margin: 0 1%;
+    }
+
+    div.order fieldset {
+      width: 30%;
+      margin: 20px 1%;
+      padding: 20px 1%;
+    }
+
+    div.order div.orderOrder {
+      display: block;
+    }
+
+        div.order div.orderOrder select {
+          width: 20%;
+          margin: 0 1%;
+        }
+
+        div.order div.orderOrder select:last-child {
+          width: 50%;
+        }
+
+    div.order input.search {
+      width: 20%;
+      height: 15px;
+      margin-left: 1%;
+    }
+
+    div.order table {
+      width: 60%;
+      margin: 20px 1%;
+      text-align: left;
+    }
+
+    div.order thead {
+      background-color: lightgray;
+    }
+
+    div.order tr {
+      height: 23px;
+    }
+
+    div.order th {
+      width: 27%;
+    }
+
+
+    div.order button {
+      margin: 10px 0 0 75%;
+      border: none;
+      padding: 0px 1%;
+      font-size: 1em;
+      width: 15%;
+      background-color: skyblue;
+      border-radius: 3px;
+      box-shadow: 2px 2px 2px lightgray;
+      color: snow;
+    }
